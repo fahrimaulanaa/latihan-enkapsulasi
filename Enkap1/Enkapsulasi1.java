@@ -12,6 +12,16 @@ public class Enkapsulasi1{
         kpersegi();
     }
 
+    //public method luas segitiga
+    public void lsegitiga() {
+        System.out.println("Masukkan alas: ");
+        int alas = sc.nextInt();
+        System.out.println("Masukkan tinggi: ");
+        int tinggi = sc.nextInt();
+        int luas = (alas * tinggi) / 2;
+        System.out.println("Luas segitiga: " +luas);
+    }
+
     //Public method yang akan diakses oleh Enkap22
     public void lpersegi() {
         System.out.println("Masukkan panjang sisi: ");
@@ -38,7 +48,7 @@ public class Enkapsulasi1{
         System.out.println("Keliling persegi: "+keliling);
     }
 
-    //public method yang akan diakses oleh Enkap22
+    //public method yang akan diakses oleh Enkap22 dan package mana saja
     public void luaslingkaran(){
         double phi = 3.14;
         System.out.println("Masukkan jari jari: ");

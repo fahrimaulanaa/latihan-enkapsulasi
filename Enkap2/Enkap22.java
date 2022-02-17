@@ -6,6 +6,7 @@ public class Enkap22 {
     public static void main(String[] args) {
         Enkapsulasi1 enkapsulasi1 = new Enkapsulasi1();
         Enkapsulasi1 enkapsulasi4 = new Enkapsulasi1();
+        Enkapsulasi1 enkapsulasi5 = new Enkapsulasi1();
 
         //memanggil public method dari package Enkap1 dan class Enkapsulasi1 pada method lpersegi
         System.out.println("Luas persegi: ");
@@ -14,6 +15,10 @@ public class Enkap22 {
 
         //memanggil public method dari package Enkap1 dan class Enkapsulasi1 pada method lpersegipanjang
         System.out.println("Luas persegi panjang: ");
-        enkapsulasi4.luaslingkaran();       
+        enkapsulasi4.luaslingkaran(); 
+
+        //memanggil public method dari package Enkap1 dan class Enkapsulasi1 pada method lsegitiga
+        System.out.println("Luas segitiga: ");
+        enkapsulasi5.lsegitiga();      
     }
 }
